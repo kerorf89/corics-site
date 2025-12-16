@@ -29,7 +29,8 @@
         body {
             font-family: 'Inter', sans-serif;
             color: var(--text-color);
-            background-image: url('assets/background.png');
+            /* FIX APPLIED: Changed path to absolute root path to ensure it loads on Vercel */
+            background-image: url('/assets/background.png');
             background-size: cover;
             background-position: center;
             background-attachment: fixed;
